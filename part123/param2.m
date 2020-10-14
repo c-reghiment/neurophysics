@@ -11,11 +11,11 @@ function par=param2(I1,G_K,G_Na)
         warning('I1 not defined, set to %2.2e A',I1);
     end
    if ~exist('G_K','var')
-        G_K= 0e-6;               
+        G_K= 9e-7;               
         warning('G_K not defined, set to %2.2e S',G_K);
    end
    if ~exist('G_Na','var')
-        G_Na = 1e-6; 
+        G_Na = 1e-7; 
         warning('G_Na not defined, set to %2.2e S',G_Na);        
    end
    
